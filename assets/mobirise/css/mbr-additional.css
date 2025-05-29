@@ -685,8 +685,6 @@ a {
 .cid-uLJtc25G9B {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-uLJtc25G9B nav.navbar {
   position: fixed;
@@ -786,8 +784,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
 }
 .cid-uLJtc25G9B .navbar.opened {
   transition: all 0.3s;
@@ -1035,8 +1033,8 @@ a {
   }
 }
 .cid-uLJKtmAyVF {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .cid-uLJKtmAyVF .image-wrap img {
   width: 100%;
